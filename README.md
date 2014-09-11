@@ -26,11 +26,11 @@ Step 3: Run Maven goal clean install
 
 Step 4: In the Input.properties file (*\\PromotionalCompanyApp\WebContent\WEB-INF\input.properties*)adapt all the values:
 
-- VERIFY_TOKEN
-- APP_ACCESS_TOKEN
-- PAGE_ACCESS_TOKEN
-- USERNAME
-- PASSWORD
+- VERIFY_TOKEN         (Facebook APP verification token)
+- APP_ACCESS_TOKEN     (Facebook APP access token)
+- PAGE_ACCESS_TOKEN    (Facebook Page access token)
+- USERNAME             (SAP Cloud for Customer User)
+- PASSWORD             (SAP Cloud for Customer Password)
 
 Step 5: Replace the *\PromotionalCompanyApp\src\com\cfc\fb\client\MarketingLead.wsdl* with wsdl from your SAP Cloud for Customer tenant specifc WSDL for the ManageMarketingLeadIn WSDL
 
