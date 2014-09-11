@@ -19,16 +19,21 @@ How to deploy the application?
 
 Step 1: Clone the Git repository
 
-Step 2: Import the project as a maven project into your eclipse workspace.
+Step 2: Import the project as a maven project into your eclipse workspace. 
+*Note - Make sure the project uses JDK 1.7. This can be configured in the project build path*
 
 Step 3: Run Maven goal clean install 
 
 Step 4: In the Input.properties file (under \\ PromotionalCompanyApp\WebContent\WEB-INF\input.properties)adapt all the values:
 
-VERIFY_TOKEN, APP_ACCESS_TOKEN, PAGE_ACCESS_TOKEN, USERNAME and PASSWORD
+- VERIFY_TOKEN
+- APP_ACCESS_TOKEN
+- PAGE_ACCESS_TOKEN
+- USERNAME
+- PASSWORD
 
 Step 5: Replace the \PromotionalCompanyApp\src\com\cfc\fb\client\MarketingLead.wsdl with wsdl from your SAP Cloud for Customer tenant specifc WSDL for the ManageMarketingLeadIn WSDL
 
-Step 6: Build and deploy your application
+Step 6: Build and deploy your application. **Please note you need to use the SAP HANA Cloud JAVA EE6 Web profile as the runtime enviornment**
 
 Step 7: In the Facebook app subscribe to the HANA Cloud Platform APP ConsumerAPP servlet in the real time subscription
