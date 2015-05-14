@@ -37,3 +37,9 @@ Step 5: Replace the *\PromotionalCompanyApp\src\com\cfc\fb\client\MarketingLead.
 Step 6: Build and deploy your application. **Please note you need to use the SAP HANA Cloud JAVA EE6 Web profile as the runtime enviornment**
 
 Step 7: In the Facebook app subscribe to the HANA Cloud Platform APP ConsumerAPP servlet in the real time subscription
+
+Authors:
+-------
+**Abinash Nanda**
+
+https://twitter.com/abinashnanda
